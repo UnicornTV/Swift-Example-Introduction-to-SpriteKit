@@ -1,3 +1,7 @@
 # Introduction to SpriteKit with Swift
 
-Work in progress. Blog post to come soon.
+Build a simple SpriteKit game with Swift.
+
+## Read the accompanying blog post:
+
+- [English](http://www.swiftcast.tv/articles/make-2d-game-spritekit-swift)
