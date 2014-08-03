@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F1B4F85198D41D100C9B53B /* hero.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6F1B4F84198D41D100C9B53B /* hero.atlas */; };
 		6FC43F161980D64E00E5C313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC43F151980D64E00E5C313 /* AppDelegate.swift */; };
 		6FC43F181980D64E00E5C313 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6FC43F171980D64E00E5C313 /* GameScene.sks */; };
 		6FC43F1A1980D64E00E5C313 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC43F191980D64E00E5C313 /* GameScene.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F1B4F84198D41D100C9B53B /* hero.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = hero.atlas; sourceTree = "<group>"; };
 		6FC43F101980D64E00E5C313 /* Run Fast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Run Fast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC43F141980D64E00E5C313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FC43F151980D64E00E5C313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		6FC43F121980D64E00E5C313 /* Run Fast */ = {
 			isa = PBXGroup;
 			children = (
+				6F1B4F84198D41D100C9B53B /* hero.atlas */,
 				6FC43F151980D64E00E5C313 /* AppDelegate.swift */,
 				6FC43F171980D64E00E5C313 /* GameScene.sks */,
 				6FC43F191980D64E00E5C313 /* GameScene.swift */,
@@ -198,6 +201,7 @@
 				6FC43F211980D64E00E5C313 /* Images.xcassets in Resources */,
 				6FC43F181980D64E00E5C313 /* GameScene.sks in Resources */,
 				6FC43F1F1980D64E00E5C313 /* Main.storyboard in Resources */,
+				6F1B4F85198D41D100C9B53B /* hero.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +407,7 @@
 				6FC43F321980D64E00E5C313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FC43F331980D64E00E5C313 /* Build configuration list for PBXNativeTarget "Run FastTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +416,7 @@
 				6FC43F351980D64E00E5C313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
