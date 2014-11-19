@@ -27,7 +27,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate
     
     // Enable physics around our hero using a circle to draw our radius
     hero.physicsBody = SKPhysicsBody(circleOfRadius: hero.size.height / 2.75)
-    hero.physicsBody.dynamic = true
+    hero.physicsBody?.dynamic = true
     
     self.addChild(hero)
     runForward()
@@ -70,11 +70,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate
       
       let jump = SKAction.repeatAction(hero_jump_anim, count: 1)
       
-      if !hero.actionForKey("jumping")
+      if (hero.actionForKey("jumping") != nil)
       {
         hero.runAction(jump, withKey: "jumping")
-        hero.physicsBody.velocity = CGVectorMake(0, 0)
-        hero.physicsBody.applyImpulse(CGVectorMake(0, 280))
+        hero.physicsBody?.velocity = CGVectorMake(0, 0)
+        hero.physicsBody?.applyImpulse(CGVectorMake(0, 280))
       }
     }
   }
@@ -116,7 +116,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate
     {
       let sprite = SKSpriteNode(texture: groundTexture)
       sprite.physicsBody = SKPhysicsBody(rectangleOfSize: CGSize(width: groundTexture.size().width, height: groundTexture.size().height/4))
-      sprite.physicsBody.dynamic = false
+      sprite.physicsBody?.dynamic = false
       sprite.setScale(2.0)
       sprite.position = CGPointMake(i * sprite.size.width, sprite.size.height / 2.0)
       sprite.runAction(moveGroundSpritesForever)

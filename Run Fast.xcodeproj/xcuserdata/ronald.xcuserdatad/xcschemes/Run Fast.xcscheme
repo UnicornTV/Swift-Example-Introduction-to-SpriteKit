@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0600"
+   LastUpgradeVersion = "0610"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,6 +17,20 @@
                BlueprintIdentifier = "6FC43F0F1980D64E00E5C313"
                BuildableName = "Run Fast.app"
                BlueprintName = "Run Fast"
+               ReferencedContainer = "container:Run Fast.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6FC43F251980D64E00E5C313"
+               BuildableName = "Run FastTests.xctest"
+               BlueprintName = "Run FastTests"
                ReferencedContainer = "container:Run Fast.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
